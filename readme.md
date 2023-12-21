@@ -93,7 +93,7 @@ server
 │       ├── repositoryQuery.js
 │       └── repositoryQuery.ts
 └── tsconfig.json
-
+```
 
 ## Prerequisites
 
