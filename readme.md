@@ -19,77 +19,80 @@ The project is organized into two main folders:
 - **client:** Contains the React client application.
 - **server:** Contains the GraphQL server.
 - **FullProjectStructure**
-.
-├── Readme.md
-├── client
-│   ├── README.md
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── public
-│   │   ├── favicon.ico
-│   │   ├── index.html
-│   │   ├── logo192.png
-│   │   ├── logo512.png
-│   │   ├── manifest.json
-│   │   └── robots.txt
-│   ├── src
-│   │   ├── App.css
-│   │   ├── App.test.tsx
-│   │   ├── App.tsx
-│   │   ├── constant
-│   │   │   └── github.tsx
-│   │   ├── container
-│   │   │   ├── Loader.tsx
-│   │   │   ├── RepoDetails.tsx
-│   │   │   └── RepoList.tsx
-│   │   ├── index.css
-│   │   ├── index.tsx
-│   │   ├── logo.svg
-│   │   ├── react-app-env.d.ts
-│   │   ├── reportWebVitals.ts
-│   │   └── setupTests.ts
-│   └── tsconfig.json
-└── server
-    ├── dist
-    │   ├── GitHubScanner.js
-    │   ├── constant
-    │   │   └── index.js
-    │   ├── index.js
-    │   ├── interceptors
-    │   │   └── logging.js
-    │   ├── interface
-    │   │   └── repository.js
-    │   ├── resolvers
-    │   │   └── repositoryResolver.js
-    │   ├── services
-    │   │   ├── checkHeader.js
-    │   │   └── repository.js
-    │   └── type
-    │       ├── repository.js
-    │       ├── repositoryDetails.js
-    │       └── repositoryQuery.js
-    ├── package-lock.json
-    ├── package.json
-    ├── src
-    │   ├── constant
-    │   │   └── index.ts
-    │   ├── index.js
-    │   ├── index.ts
-    │   ├── interceptors
-    │   │   ├── logging.js
-    │   │   └── logging.ts
-    │   ├── interface
-    │   │   └── repository.ts
-    │   ├── resolvers
-    │   │   ├── repositoryResolver.js
-    │   │   └── repositoryResolver.ts
-    │   ├── services
-    │   │   ├── checkHeader.ts
-    │   │   └── repository.ts
-    │   └── type
-    │       ├── repositoryQuery.js
-    │       └── repositoryQuery.ts
-    └── tsconfig.json
+## Client
+
+```plaintext
+client
+│
+├── README.md
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+└── src
+    ├── App.css
+    ├── App.test.tsx
+    ├── App.tsx
+    ├── constant
+    │   └── github.tsx
+    ├── container
+    │   ├── Loader.tsx
+    │   ├── RepoDetails.tsx
+    │   └── RepoList.tsx
+    ├── index.css
+    ├── index.tsx
+    ├── logo.svg
+    ├── react-app-env.d.ts
+    ├── reportWebVitals.ts
+    └── setupTests.ts
+└── tsconfig.json
+server
+│
+├── dist
+│   ├── GitHubScanner.js
+│   ├── constant
+│   │   └── index.js
+│   ├── index.js
+│   ├── interceptors
+│   │   └── logging.js
+│   ├── interface
+│   │   └── repository.js
+│   ├── resolvers
+│   │   └── repositoryResolver.js
+│   ├── services
+│   │   ├── checkHeader.js
+│   │   └── repository.js
+│   └── type
+│       ├── repository.js
+│       ├── repositoryDetails.js
+│       └── repositoryQuery.js
+├── package-lock.json
+├── package.json
+├── src
+│   ├── constant
+│   │   └── index.ts
+│   ├── index.js
+│   ├── index.ts
+│   ├── interceptors
+│   │   ├── logging.js
+│   │   └── logging.ts
+│   ├── interface
+│   │   └── repository.ts
+│   ├── resolvers
+│   │   ├── repositoryResolver.js
+│   │   └── repositoryResolver.ts
+│   ├── services
+│   │   ├── checkHeader.ts
+│   │   └── repository.ts
+│   └── type
+│       ├── repositoryQuery.js
+│       └── repositoryQuery.ts
+└── tsconfig.json
 
 
 ## Prerequisites
